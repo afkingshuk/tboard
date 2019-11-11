@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {    
     "start:dev": "nodemon --watch server --exec babel-node -- server/index.js",
-    "start": "nodemon --watch server --exec babel-node -- server/index.js",
-    "start-1": "node --watch server --exec babel-node -- server/index.js",
+    "start-0": "nodemon --watch server --exec babel-node -- server/index.js",
+    "start": "node ./server/index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "./node_modules/.bin/webpack --config webpack.config.dev.js",
     "heroku-postbuild" : "npm install"
