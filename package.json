@@ -7,7 +7,7 @@
     "start": "nodemon --watch server --exec babel-node -- server/index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "./node_modules/.bin/webpack --config webpack.config.dev.js",
-    "heroku-postbuild" : "npm install && ./node_modules/.bin/webpack --config webpack.config.dev.js"
+    "heroku-postbuild" : "cd/client npm install && npm run build "
   },
   "keywords": [],
   "author": "AFK",
@@ -42,5 +42,8 @@
     "react-router-dom": "^4.2.2",
     "redux": "^3.7.2",
     "redux-thunk": "^2.2.0"
+  },
+  "engine":{
+    "node": "10.16.3"
   }
 }
