@@ -32,7 +32,7 @@ let app = express();
 
 // Configuration
 app.disable('x-powered-by');
-app.set('port', process.env.PORT || 3000 || 8080);
+app.set('port', process.env.PORT || 3000);
 app.set('json spaces', 2);
 
 
@@ -76,6 +76,6 @@ app.use((err, req, res, next) => {
 
 //step 3 complicated 
 if(process.env.NODE_ENV === 'production'){
-  
+
 }
 
