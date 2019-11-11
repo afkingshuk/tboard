@@ -74,12 +74,13 @@ app.use((err, req, res, next) => {
   })
 });
 
-//step 3 complicated 
-if(process.env.NODE_ENV === 'production'){
-  app.use(express.static('server/public'));
 
-  app.get('*', () => {
-    res.sendFile(path.resolve(__dirname, 'server', 'public', 'index.html'));
-  });
-}
+// //step 3 complicated 
+// if(process.env.NODE_ENV === 'production'){
+//   app.use(express.static('server/public'));
+
+//   app.get('*', () => {
+//     res.sendFile(path.resolve(__dirname, 'server', 'public', 'index.html'));
+//   });
+// }
 
