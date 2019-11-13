@@ -1,8 +1,8 @@
 
 ## T-Board LOGO
-[](https://tboard0.herokuapp.com/img/logo.png "tboard")
+![tboard LOGO](https://tboard0.herokuapp.com/img/logo.png "tboard")
 ## T-Board Monogram 
-[](https://github.com/afkingshuk/tboard/blob/master/server/public/img/favicon.png "tboard")
+![tboard monogram](https://github.com/afkingshuk/tboard/blob/master/server/public/img/favicon.png "tboard")
 # T-Board 
 
 T-Board is a simple task management system that allows You to share your tasks with other users.
