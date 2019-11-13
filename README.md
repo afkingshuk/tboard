@@ -1,7 +1,11 @@
 
-# Tasker
+# T-Board 
 
-Tasker is a simple task management system that allows You to share your tasks with other users.
+T-Board is a simple task management system that allows You to share your tasks with other users.
+
+## Development Stack 
+
+MERN (mongoDB, expressJS, reactJS, nodeJS )
 
 ## Getting Started
 
@@ -23,7 +27,7 @@ mongoose.connect('mongodb://your-mongodb-server-address/your-collection-name')
 2. Navigate to tasker root directory and execute following commands to run application:
 ```
 npm install
-npm run server
+npm run start
 ```
 
 If everything goes well you will get tasker running on http://localhost:3000
