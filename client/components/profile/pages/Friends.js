@@ -3,8 +3,9 @@ import PropTypes from 'prop-types';
 
 import { connect } from 'react-redux';
 import { fetchFriends, addFriend, confirmFriend, deleteFriend } from '../../../actions/friendsActions';
-import Card from '../../ui/Card';
+import Person from '../../ui/Person';
 import { values } from 'lodash';
+
 
 class Friends extends Component {
   componentDidMount() {
@@ -49,7 +50,7 @@ class Friends extends Component {
 
             return (
               <div key={friend._id} className="col-md-6">
-                <Card
+                <Person
                   image="/img/profile.jpg"
                   primaryText={friend_data.username}
                   secondaryText={secondaryText}
@@ -63,7 +64,7 @@ class Friends extends Component {
                       <button className="btn btn-sm btn-danger" onClick={() => this.onDeleteFriend(friend._id, friend_data._id)}>Decline invite</button>
                     </div>
                   }
-                </Card>
+                </Person>
               </div>
             )
           })

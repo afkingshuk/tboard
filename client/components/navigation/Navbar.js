@@ -101,8 +101,8 @@ class Navbar extends Component {
     const userLinks = (
       <ul className="navbar-nav navbar-right">
         <li className="nav-item dropdown">
-          <a className="nav-link dropdown-toggle" href="#" id="navbar-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" onClick={this.toggleDropdown}>
-            <img ref={this.setPicture} class="rounded-circle" src="/img/profile.jpg" />
+          <a className="nav-link dropdown-toggle" href="#" id="navbar-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" onClick={this.toggleDropdown}>          
+            <h2 class="text-warning">  {"Howdy,  "}  {" "}{username} <i class="fa fa-user-circle text-white" ></i></h2>
           </a>
           <div ref={this.setWraperRef} className="dropdown-menu dropdown-menu-right" aria-labelledby="navbar-dropdown" style={this.state.dropdown ? { display: 'block' } : { display: 'none' }}>
             <span className="dropdown-header">Signed in as</span>

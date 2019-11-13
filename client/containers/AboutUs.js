@@ -170,8 +170,10 @@ export default class About extends Component {
 
 
                 <footer class="bg-light pb-5">
+                    <br/>
+                    <br/>
                     <div class="container text-center">                        
-                        <p class="font-italic text-dark mb-0"> <i class="fa fa-creative-commons spinner"></i> <h3>Made with <i class="fa fa-heart text-danger"></i> in <a class="text-success">Dhaka, Bangladesh </a>  by <a class="text-info">Kingshuk</a> </h3></p>
+                        <p class="font-italic text-dark "> <i class="fa fa-creative-commons spinner"></i> <h5>Made with <i class="fa fa-heart text-danger"></i> in <a class="text-success">Dhaka, Bangladesh </a>  by <a class="text-info">Kingshuk</a> </h5></p>
                     </div>
                 </footer>
 

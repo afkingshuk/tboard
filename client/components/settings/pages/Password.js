@@ -20,7 +20,9 @@ export default class Password extends Component {
   onUpdate = (e) => {
     e.preventDefault();
     if(this.state.password === this.state.confirm)
-      this.props.onSave(this.state);
+      {this.props.onSave(this.state);
+        this.props.history.goBack();
+        this.props.history.push('/projects');}
   }
 
   render() {

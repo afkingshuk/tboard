@@ -20,6 +20,8 @@ export default class Profile extends Component {
   }
   onUpdate = () => {
     this.props.onSave(this.state);
+    this.props.history.goBack();
+    this.props.history.push('/projects');
   }
   render() {
     const { username, fullName, email } = this.state;
@@ -57,7 +59,7 @@ export default class Profile extends Component {
             onChange={this.onChangeEmail}/>
         </div>
         <div className="text-center">
-          <button className="btn btn-sm btn-primary" onClick={this.onUpdate}>Save</button>
+          <button className="btn btn-sm btn-success" onClick={this.onUpdate}>Save</button>
         </div>
       </div>
     )

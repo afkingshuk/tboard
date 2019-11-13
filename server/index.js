@@ -10,7 +10,7 @@ const webpackMiddleware = require('webpack-dev-middleware');
 import webpackConfig from '../webpack.config.dev.js';
 
 // Database
-mongoose.connect( process.env.MONGODB_URI || 'mongodb://127.0.0.1:27017/tasker', {
+mongoose.connect( process.env.MONGODB_URI || 'mongodb://127.0.0.1:27017/tboard', {
   useNewUrlParser: true
 });
 
