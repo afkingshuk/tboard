@@ -3,13 +3,13 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {    
+  "scripts": {
     "start:dev": "nodemon --watch server --exec babel-node -- server/index.js",
     "start": "nodemon --watch server --exec babel-node -- server/index.js",
     "start-1": "node ./server/index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "./node_modules/.bin/webpack --config webpack.config.dev.js",
-    "heroku-postbuild" : "npm install"
+    "heroku-postbuild": "npm install"
   },
   "keywords": [],
   "author": "AFK",
@@ -25,7 +25,11 @@
   },
   "dependencies": {
     "axios": "^0.17.1",
+    "babel-cli": "^6.26.0",
     "babel-loader": "^7.1.5",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
     "bcrypt": "^3.0.6",
     "bcryptjs": "^2.4.3",
     "body-parser": "^1.19.0",
@@ -35,6 +39,8 @@
     "lodash": "^4.17.4",
     "mongoose": "^5.7.1",
     "mongoose-unique-validator": "^2.0.3",
+    "node-sass": "^4.13.0",
+    "nodemon": "^1.14.7",
     "passport": "^0.4.0",
     "passport-jwt": "^4.0.0",
     "react": "^16.2.0",
@@ -44,16 +50,10 @@
     "react-router-dom": "^4.2.2",
     "redux": "^3.7.2",
     "redux-thunk": "^2.2.0",
-
-    "babel-cli": "^6.26.0",
-    "babel-preset-es2015": "^6.24.1",
-    "babel-preset-react": "^6.24.1",
-    "babel-preset-stage-0": "^6.24.1",
-    "nodemon": "^1.14.7",
     "webpack": "^3.10.0",
     "webpack-dev-middleware": "^2.0.3"
   },
-  "engines":{
+  "engines": {
     "node": "10.16.3"
   }
 }
