@@ -1,6 +1,6 @@
 
 ## T-Board LOGO
-[[https://tboard0.herokuapp.com/img/logo.png]]
+![alt text](https://tboard0.herokuapp.com/img/logo.png "tboard")
 ## T-Board Monogram 
 
 # T-Board 
