@@ -4,12 +4,7 @@ export default class About extends Component {
     render() {
         return (
             <div>
-                <nav class="navbar navbar-expand-lg navbar-dark bg-light py-3">
-                    <div class="container"><a href="https://www.bracu.ac.bd/" class="navbar-brand d-flex align-items-center text-dark"> <img src="\img\bracu.svg" style={{ width: 50 }} /> CSE471 Term Project - Fall 2019 - Lab Sec 06</a>
-                        <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler"><span class="navbar-toggler-icon"></span></button>
-
-                    </div>
-                </nav>
+                
 
                 <div class="bg-light">
                     <div class="container py-2">
