@@ -10,7 +10,7 @@ const webpackMiddleware = require('webpack-dev-middleware');
 import webpackConfig from '../webpack.config.dev.js';
 
 // Database
-mongoose.connect( process.env.MONGODB_URI || 'mongodb+srv://tboard:<password>@afkingshuk.btuaw.mongodb.net/<dbname>?retryWrites=true&w=majority', {
+mongoose.connect( process.env.MONGODB_URI || 'mongodb+srv://local:localhost@localhost0.idky9.mongodb.net/tboard0?retryWrites=true&w=majority', {
   useNewUrlParser: true
 });
 
